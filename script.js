@@ -1,5 +1,6 @@
 // Define your quotes
-var quotes = "My quote 1|||My quote 2|||My quote 3|||My quote 4|||My quote 5";
+var quotes = "Get into Amazon, Google! Try for the Stars - you will reach the Sky!|||Solve just 2 pieces, do 2 pushups, reverse a string program||| Write Dapps for wallet and smallest usecase, keep writing, you endup great"
+    +"|||Programming seems interesting with new tools. Enjoy the joy!";
 
 // Split the quotes into an array
 var quotesArray = quotes.split("|||");
