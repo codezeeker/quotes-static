@@ -13,6 +13,7 @@ quotesArray.forEach(function(quote, index) {
     card.classList.add("cards");
     card.innerText = quote;
     card.style.display = index === 0 ? "block" : "none"; // Show first card, hide others
+    card.onclick = rotateCard; 
     container.appendChild(card);
 });
 
