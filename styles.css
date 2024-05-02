@@ -21,7 +21,9 @@ body {
     transition: transform 0.5s;
     cursor: pointer;
 }
-.card.front {
+.cards {
+    width: 100px;
+    height: 150px;
     background-color: #3498db;
     color: #fff;
     display: flex;
@@ -29,13 +31,6 @@ body {
     align-items: center;
     font-size: 24px;
     border-radius: 10px;
-    backface-visibility: hidden;
-}
-.card.back {
-    background-color: #95a5a6;
-    border-radius: 10px;
-    backface-visibility: hidden;
-}
-.card.flipped {
-    transform: rotateY(180deg);
+    margin: 10px;
+    cursor: pointer;
 }
